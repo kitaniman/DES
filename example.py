@@ -1,7 +1,6 @@
 import numpy as np
 from des import des_encrypt, des_decrypt
 
-np.random.seed(42)
 
 plain_text = np.array([
     int(bit)
